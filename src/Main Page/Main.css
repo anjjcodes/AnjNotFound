@@ -1,0 +1,16 @@
+.posters{
+    width: 300px;
+    height: 480px;
+}
+.main-container{
+    margin-top: -120px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.images{
+    display: flex;
+    gap: 33px;
+    justify-items: center;
+    align-items: center;
+}

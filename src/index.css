@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'Impact';
+  src: url('./impact.woff');
+}
+@font-face {
+  font-family: 'LeJour';
+  src: url('./LeJour.woff');
+  
+}
+@font-face {
+  font-family: 'TT Hoves';
+  src: url('./TT-Hoves.woff');
+}

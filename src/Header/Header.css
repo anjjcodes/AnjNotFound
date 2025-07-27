@@ -1,0 +1,18 @@
+.header{
+    color: white;
+    font-family: 'LeJour';
+    font-size: 70px;
+    text-align: center;
+    margin-top: -90px;
+   
+}
+.head span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.head span:hover {
+  transform: scale(1.2);
+  color: #ffffff; /* optional: add color change */
+  cursor:grabbing;
+}
