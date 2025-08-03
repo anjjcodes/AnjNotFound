@@ -1,19 +1,30 @@
 import React from 'react'
 import './Main.css'
-import pic1 from '../assets/pic1.jpeg'
-import pic2 from '../assets/pic2.jpeg'
-import pic3 from '../assets/pic3.jpeg'
+import book from './book.jpg'
+import car from './car.jpg'
+import code from './code.jpg'
+import flower from './flower.jpg'
+import bg1 from './bg1.png'
+import bg2 from './bg2.png'
+
 
 const Main = () => {
   return (
+    <div>
     <div className='main-container'>
         <div className="images">
-            <img src={pic1} alt="" className="posters" />
-            <img src={pic2} alt="" className="posters" />
-            <img src={pic3} alt="" className="posters" />
+            <img src={book} alt="" className="posters" />
+            <img src={car} alt="" className="posters" />
+            <img src={code} alt="" className="posters" />
+            <img src={flower} alt="" className="posters" />
+        </div>
+        
+        </div>
+        <img src={bg1} alt="" className="bg1" />
+        <img src={bg2} alt="" className="bg2" />
         </div>
       
-    </div>
+  
   )
 }
 
